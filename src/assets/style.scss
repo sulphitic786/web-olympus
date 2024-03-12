@@ -1,0 +1,379 @@
+
+// body{
+//   background: #000;
+// }
+// @font-face {
+//   font-family: Ganora;
+//   src: url('./fonts/Ganora.otf');
+// }
+// .plus-jakarta{
+//   font-family: "Plus Jakarta Sans", sans-serif;
+//   font-optical-sizing: auto;
+//   /* font-weight: <weight>; */
+//   font-style: normal;
+// }
+// h1,h2,h3,h4,h5,h6,p,ul,li{
+//   margin-bottom: 0;
+// }
+
+// /* =============STYLING FOR NAVBAR=============== */
+// .navbar {
+//   background: #000;
+//   box-shadow: 0 4px 6px rgba(22, 22, 26, 0.18);
+// }
+// .navbar .navbar-nav .nav-link {
+//   color: #fff;
+
+// }
+// .btn-outline-dark {
+//   border-radius: 0;
+//   color: white;
+//   border: 2px solid white;
+//   justify-content: center;
+//   align-items: center;
+//   padding: 12px;
+// }
+// .btn-outline-dark:focus {
+//   box-shadow: none;
+// }
+// .navbar-toggler{
+//   background-color: white;
+//   color: white;
+// }
+
+// /* =================STYLING FOR CONTACT US PAGE START HERE========== */
+// .contact-us{
+//   padding-top: 50px;
+// }
+// .content h1{
+// color: white;
+// font-family: Ganora;
+// font-weight: 400;
+// font-size: 60px;
+// }
+// .content p{
+//   font-family: plus-jakarta;
+//   font-weight: 500;
+//   font-size: 16px;
+//   line-height: 22px;
+//   color: #AAAAAA;
+// }
+// .contact-us-form label{
+//   font-family: sans-serif;
+//   font-weight: 500;
+//   font-size: 18px;
+//   line-height: 24px;
+// }
+// .contact-us-form input{
+//   background-color: black;
+//   border: 1px solid white;
+//   color: #AAAAAA;
+//   border-radius: 0;
+//   padding: 12px;
+// }
+// .form-control::placeholder {
+//   color: #AAAAAA;
+//   font-family: sans-serif;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 27px;
+//   text-transform: capitalize;
+// }
+// .form-control:focus {
+//   background: black;
+//   border-color: white;
+//   outline: 0;
+//   box-shadow: none;
+//   color: #AAAAAA;
+// }
+// .contact-us-form .form-select{
+//   background-color: black;
+//   border: 1px solid white;
+//   border-radius: 0;
+//   padding: 12px;
+//   color: #AAAAAA;
+// }
+// .contact-us-form .form-select:focus {
+//   background: black;
+//   border-color: white;
+//   outline: 0;
+//   box-shadow: none;
+// }
+// .contact-us-form .textarea-msg{
+//   resize: none;
+//   background-color: #000;
+//   border: 1px solid white;
+//   border-radius: 0%;
+//   color: #AAAAAA;
+// }
+// .submit-button{
+//   text-transform: uppercase;
+//   font-weight: 700;
+//   font-size: plus-jakarta;
+//   font-size: 16px;
+// }
+// .imgs img{
+//   height: 689px;
+// }
+// /* =================STYLING FOR CONTACT US PAGE END HERE========== */
+// /* =================STYLING FOR FOOTER PAGE START HERE========== */
+// .footer{
+//   background-image: url('./imgs/bg.png');
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   padding-top: 100px;
+// }
+// .links h1{
+//   font-family: sans-serif;
+//   font-weight: 700;
+//   font-size: 18px;
+//   color: white;
+// }
+// .links ul li a{
+//   text-decoration: none;
+//   color: #AAAAAA;
+//   font-family: sans-serif;
+//   font-weight: 500;
+//   font-size: 15px;
+// }
+// .copyright p{
+//   font-weight: 500;
+//   font-size: 15px;
+//   line-height: 21px;
+//   font-family: sans-serif;
+//   color: #888888;
+// }
+// .logo{
+//   display: flex;
+//   justify-content: center;
+// }
+// .row-main{
+//   gap: 30px;
+// }
+// /* =================STYLING FOR FOOTER PAGE END HERE========== */
+// @media screen and (max-width: 768px) {
+// .btn-outline-dark{
+//   width: 100%;
+// }
+//   .btn-outline-dark:hover {
+//     background: none;
+//     color: gray;
+//   }
+//   .navbar-nav{
+//     gap: 4px !important;
+//   }
+// }
+// @media screen and (max-width: 600px) {
+//   .content h1 {
+//     font-size: 44px;
+// }
+// .imgs img {
+//   height: 392px;
+// }
+// .links{
+//   padding-top: 35px;
+// }
+// .copyright p {
+//   font-size: 13px;
+  
+// }
+// .row-main{
+//   gap: 0px;
+// }
+//   }
+
+
+body {
+  background: #000;
+}
+
+@font-face {
+  font-family: Ganora;
+  src: url('./fonts/Ganora.otf');
+}
+
+.plus-jakarta {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin-bottom: 0;
+}
+
+/* STYLING FOR NAVBAR */
+.navbar {
+  background: #000;
+  box-shadow: 0 4px 6px rgba(22, 22, 26, 0.18);
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.btn-outline-dark {
+  border-radius: 0;
+  color: white;
+  border: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.btn-outline-dark:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler {
+  background-color: white;
+  color: white;
+}
+
+/* STYLING FOR CONTACT US PAGE */
+.contact-us {
+  padding-top: 50px;
+}
+
+.content h1 {
+  color: white;
+  font-family: Ganora;
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.content p {
+  font-family: 'plus-jakarta';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #aaaaaa;
+}
+
+.contact-us-form label {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.contact-us-form input, .contact-us-form .form-select {
+  background-color: black;
+  border: 1px solid white;
+  color: #aaaaaa;
+  border-radius: 0;
+  padding: 12px;
+}
+
+.form-control::placeholder {
+  color: #aaaaaa;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-transform: capitalize;
+}
+
+.form-control:focus, .contact-us-form .form-select:focus {
+  background: black;
+  border-color: white;
+  outline: 0;
+  box-shadow: none;
+  color: #aaaaaa;
+}
+
+.contact-us-form .textarea-msg {
+  resize: none;
+  background-color: #000;
+  border: 1px solid white;
+  border-radius: 0;
+  color: #aaaaaa;
+}
+
+.submit-button {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: plus-jakarta;
+  font-size: 16px;
+}
+
+.imgs img {
+  height: 689px;
+}
+
+/* STYLING FOR FOOTER */
+.footer {
+  background-image: url('./imgs/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.links h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: #aaaaaa;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.copyright p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  font-family: sans-serif;
+  color: #888888;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.row-main {
+  gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-outline-dark {
+    width: 100%;
+  }
+
+  .btn-outline-dark:hover {
+    background: none;
+    color: gray;
+  }
+
+  .navbar-nav {
+    gap: 4px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content h1 {
+    font-size: 44px;
+  }
+
+  .imgs img {
+    height: 392px;
+  }
+
+  .links {
+    padding-top: 35px;
+  }
+
+  .copyright p {
+    font-size: 13px;
+  }
+
+  .row-main {
+    gap: 0px;
+  }
+}
